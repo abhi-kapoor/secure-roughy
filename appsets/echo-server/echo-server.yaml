@@ -2,7 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: ApplicationSet
 metadata:
   name: app-set-echoserver
-  namespace: echo-server
+  namespace: kubechecks
 spec:
   generators:
     - clusters:
